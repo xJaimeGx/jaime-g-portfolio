@@ -17,12 +17,12 @@ header {
 }
 
 header h1 {
-    font-size: 46px;
+    font-size: 50px;
     font-weight: bolder;
 }
 
 header ul {
-    font-size: 22px;
+    font-size: 26px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -36,15 +36,25 @@ header li {
     font-size: 20px;
 }
 
+.about-me p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 75%;
+}
+
 .about-me h2, .projects h2, .my-experience h2 {
     border-bottom: 5px solid var(--primary-color);
 }
 
-.about-me p {
-    text-align: center;
-    font-weight: bold;
+.projects {
+    font-size: 20px;
 }
 
 .projects h3 {
     text-align: center;
+}
+
+.my-experience {
+    font-size: 20px;
 }
