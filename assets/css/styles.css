@@ -1,6 +1,7 @@
 :root {
     --primary-color: steelblue;
     --secondary-color: silver;
+    font-family: 'Courier New', Courier, monospace;
 }
 body {
     color: var(--primary-color);
@@ -16,14 +17,12 @@ header {
 }
 
 header h1 {
-    font-family: times;
     font-size: 46px;
     font-weight: bolder;
 }
 
 header ul {
     font-size: 22px;
-    font-family: sans-serif;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -34,10 +33,18 @@ header li {
 }
 
 .about-me {
-    text-align: center;
     font-size: 20px;
 }
 
-.about-me img {
-    width: 60%;
+.about-me h2, .projects h2, .my-experience h2 {
+    border-bottom: 5px solid var(--primary-color);
+}
+
+.about-me p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.projects h3 {
+    text-align: center;
 }
