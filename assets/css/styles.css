@@ -36,6 +36,12 @@ header li {
     font-size: 25px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-me p {
     margin-top: 50px;
     text-align: center;
