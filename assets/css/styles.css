@@ -23,6 +23,7 @@ header h1 {
 
 header ul {
     font-size: 28px;
+    font-weight: bold;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -36,10 +37,14 @@ header li {
     font-size: 25px;
 }
 
-.container {
+.container-about {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container-about img {
+    border: 5px solid var(--primary-color)
 }
 
 .about-me p {
@@ -60,10 +65,39 @@ header li {
     font-size: 25px;
 }
 
+.container-run-buddy img, .container-horiseon img {
+    border: 5px solid var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 55px;
+}
+
 .projects h3 {
     text-align: center;
 }
 
 .my-experience {
     font-size: 25px;
+}
+
+.container-haas img {
+    border: 5px solid var(--primary-color);
+    margin-left: 575px
+}
+
+.my-experience p {
+    margin-top: 50px;
+    margin-left: 175px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    border-top: 5px solid var(--primary-color);
 }
