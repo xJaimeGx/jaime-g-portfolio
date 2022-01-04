@@ -32,3 +32,12 @@ header ul {
 header li {
     padding: 20px 20px 20px 20px;
 }
+
+.about-me {
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-me img {
+    width: 60%;
+}
