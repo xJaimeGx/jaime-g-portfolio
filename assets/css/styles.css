@@ -1,3 +1,19 @@
+:root {
+    --primary-color: steelblue;
+    --secondary-color: silver;
+}
 body {
-    background-color: teal;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+ul {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
