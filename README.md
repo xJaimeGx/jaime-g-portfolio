@@ -1,7 +1,7 @@
 # Jaime Gutierrez' Portfolio
 
 ## What It's About
-To show that Mr. Gutierrez is ready to work.
+This portfolio will tell you a little bit about where i come from and where i want to go in the future as far as a career path. on this page you will find examples of projects i have worked on, practicing my HTML and CSS knowledge i have gained. My contact info is included for any questions. most importantly, this portfolio is to show that i am ready to work!
 
 ## Created Using
 * HTML
