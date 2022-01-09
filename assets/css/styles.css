@@ -33,6 +33,10 @@ header li {
     padding: 20px 20px 20px 20px;
 }
 
+h2 {
+    font-style: italic;
+}
+
 .about-me {
     font-size: 25px;
 }
@@ -65,12 +69,24 @@ header li {
     font-size: 25px;
 }
 
-.container-run-buddy img, .container-horiseon img {
+.container-run-buddy img {
     border: 5px solid var(--primary-color);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 55px;
+    margin-left: 200px;
+    width: 1000px;
+    height: auto;
+}
+
+.container-horiseon img {
+    border: 5px solid var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 450px;
+    width: 500px;
+    height: auto;
 }
 
 .projects h3 {
