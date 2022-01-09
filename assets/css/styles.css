@@ -19,6 +19,8 @@ header {
 header h1 {
     font-size: 55px;
     font-weight: bolder;
+    display: flex;
+    flex-direction: column;
 }
 
 header ul {
@@ -48,7 +50,7 @@ h2 {
 }
 
 .container-about img {
-    border: 5px solid var(--primary-color)
+    border: 5px solid var(--primary-color);
 }
 
 .about-me p {
@@ -69,13 +71,17 @@ h2 {
     font-size: 25px;
 }
 
+.container-about, .container-run-buddy, .container-horiseon {
+    flex-wrap: wrap;
+}
+
 .container-run-buddy img {
     border: 5px solid var(--primary-color);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 200px;
-    width: 1000px;
+    margin: auto;
+    width: 750px;
     height: auto;
 }
 
@@ -84,8 +90,8 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 450px;
-    width: 500px;
+    margin: auto;
+    width: 400px;
     height: auto;
 }
 
@@ -99,7 +105,11 @@ h2 {
 
 .container-haas img {
     border: 5px solid var(--primary-color);
-    margin-left: 575px
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .my-experience p {
@@ -112,8 +122,21 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 footer {
     border-top: 5px solid var(--primary-color);
+}
+
+@media screen and (max-width: 980px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
