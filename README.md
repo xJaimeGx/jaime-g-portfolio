@@ -8,6 +8,7 @@ To show that Mr. Gutierrez is ready to work.
 * CSS
 
 ## Website
-https://github.com/xJaimeGx/jaime-g-portfolio.git
+https://xjaimegx.github.io/jaime-g-portfolio/
 
 #### Code written by Jaime Gutierrez
+
