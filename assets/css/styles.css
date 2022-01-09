@@ -9,14 +9,17 @@ body {
 }
 
 header {
+    position: sticky;
     top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
+    flex-wrap: wrap;
 }
 
 header h1 {
+    font-style: italic;
     font-size: 55px;
     font-weight: bolder;
     display: flex;
@@ -29,6 +32,7 @@ header ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 header li {
@@ -61,10 +65,12 @@ h2 {
     width: 75%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .about-me h2, .projects h2, .my-experience h2 {
     border-bottom: 5px solid var(--primary-color);
+    text-shadow: 2px 2px 5px black;
 }
 
 .projects {
@@ -114,7 +120,8 @@ h2 {
 
 .my-experience p {
     margin-top: 50px;
-    margin-left: 175px;
+    margin-bottom: 50px;
+    margin: auto;
     text-align: center;
     font-weight: bold;
     font-size: 22px;
@@ -127,13 +134,76 @@ h2 {
 
 footer {
     border-top: 5px solid var(--primary-color);
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+
+    header h1 {
+        font-size: 75px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+      }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+      }
+    
+    header nav ul li a {
+        font-size: 25px;
+        justify-content: center;
+      }
+
+    .about-me h2, .projects h2, .my-experience h2 {
+        font-size: 50px;
+    }
+
+    .container-run-buddy img {
+        width: 35%;
+    }
+
+    .container-horiseon img {
+        width: 20%
+    }
+
+    section h2 {
+        font-size: 30px;
+        text-align: center;
+      }
+
+    .about-me p, .my-experience p {
+        font-size: 25px;
+      }
+    
+    footer {
+        text-align: center;
+        width: 100%;
+      }
    
 }
 
 @media screen and (max-width: 768px) {
+    .container-run-buddy img{
+        width: 40%
+    }
+
+    .container-horiseon img {
+        width: 28%
+    }
+
+    .container-haas img {
+        width: 20%
+    }
+    
 
 }
 
