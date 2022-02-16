@@ -1,7 +1,7 @@
 :root {
     --primary-color: rgb(55, 79, 182);
     --secondary-color: silver;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
     color: var(--primary-color);
@@ -9,8 +9,7 @@ body {
 }
 
 header {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
+    color: var(--secondary-color);
     position: sticky;
     top: 0;
     display: flex;
@@ -19,6 +18,8 @@ header {
     background-color: var(--primary-color);
     flex-wrap: wrap;
     border-radius: 8px;
+    border-bottom: 8px solid navy;
+    border-right: 6px solid navy;
 }
 
 header h1 {
@@ -28,6 +29,7 @@ header h1 {
     font-weight: bolder;
     display: flex;
     flex-direction: column;
+    text-shadow: 3px 3px 6px navy;
 }
 
 header ul {
@@ -44,7 +46,7 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: var(--secondary-color);
 }
 
 h2 {
@@ -75,16 +77,21 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-shadow: 1px 1px 3px white;
 }
 
 .about-me h2, .projects h2, .my-experience h2 {
-    border-bottom: 5px solid var(--primary-color);
-    text-shadow: 2px 2px 5px black;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-bottom: 5px solid navy;
+    border-right: 3px solid navy;
+    text-shadow: 2px 2px 5px navy;
 }
 
 .projects {
     font-size: 25px;
     flex-wrap: wrap;
+    text-shadow: 2px 2px 5px white;
 }
 
 .container-bloodgate img {
@@ -172,11 +179,16 @@ h2 {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    text-shadow: 1px 1px 3px white;
 }
 
 footer {
-    border-top: 5px solid var(--primary-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-bottom: 8px solid navy;
+    border-right: 6px solid navy;
     margin-top: 20px;
+    text-shadow: 1px 1px 3px navy;
 }
 
 @media screen and (max-width: 980px) {
