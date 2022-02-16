@@ -8,7 +8,7 @@ This portfolio will tell you a little bit about where i come from and where i wa
 * CSS
 
 ## Screenshots of Deployed Page
-<img width="1440" alt="Screen Shot 2022-02-16 at 11 31 17 AM" src="https://user-images.githubusercontent.com/94326810/154322577-6d2289e0-c1f4-4b9d-8b3c-3fc5b62895a9.png">
+<img width="1440" alt="Screen Shot 2022-02-16 at 11 50 15 AM" src="https://user-images.githubusercontent.com/94326810/154325478-53e63833-9c3f-48b3-9ffd-b44cd52f7838.png">
 
 <img width="1440" alt="Screen Shot 2022-02-16 at 11 31 25 AM" src="https://user-images.githubusercontent.com/94326810/154322606-95f30af5-8155-4d48-b5da-2fca4dc40924.png">
 
