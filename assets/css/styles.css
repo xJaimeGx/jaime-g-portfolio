@@ -174,7 +174,7 @@ h2 {
     font-size: 25px;
 }
 
-.container-haas img {
+.container-education img {
     border: 5px solid navy;
     border-radius: 5px;
     margin: auto;
@@ -198,6 +198,10 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     text-shadow: 1px 1px 3px white;
+}
+
+h3 a{
+    color: var(--secondary-color); 
 }
 
 footer {
